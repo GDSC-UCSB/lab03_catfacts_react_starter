@@ -1,4 +1,4 @@
-# Name -- Building a <Name> using React.js 
+# Cat Facts -- Using asynchronous APIs to fetch data in React.js 
 
 ### Usage
 Type `npm start` in the directory of the project to get it running.
