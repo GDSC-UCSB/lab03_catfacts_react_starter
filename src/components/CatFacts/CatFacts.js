@@ -9,11 +9,14 @@ const CatFacts = () => {
 
     const updateFact = () => {
         setCatFact({ loading: true });
-        setTimeout(() => {
-            getNewCatFact().then((data) => {
-                setCatFact(data);
-            });
-        }, 500);
+        setTimeout(function() {
+            // Todo: implement this function
+            // This function should call getNewCatFact() and set the returned object to the catFact state directly.
+            // Be careful about async/await! Should the function statement be async?
+
+
+
+        }, 500); // this is just to show the loading spinner for at least 500ms. Flickering is bad UX.
     }
 
     useEffect(() => {
